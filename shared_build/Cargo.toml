@@ -1,0 +1,11 @@
+[package]
+name = "shared_build"
+description = "共通のbuild.rs定義用のプロジェクト"
+edition = "2021"
+
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[lib]
+

@@ -1,0 +1,8 @@
+[workspace]
+members = ["env-logger", "shared_build"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Hiroshi Kuwagata <kgt9221@gmail.com>"]
+license = "MIT"

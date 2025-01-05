@@ -1,0 +1,14 @@
+[Unit]
+Description=Environment sensor data loggger
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/kgt/envlog2/env-logger -L log database.db
+Restart=always
+User=kgt
+Group=kgt
+WorkingDirectory=/home/kgt/envlog2
+
+[Install]
+WantedBy=multi-user.target
